@@ -83,7 +83,7 @@
                                     <SplineDoubleKeyFrame KeySpline="0,1 1,1" Value="600" KeyTime="0:0:6"/>
                                     <SplineDoubleKeyFrame KeySpline="1,0 1,1" Value="300" KeyTime="0:0:8"/>
                                 </DoubleAnimationUsingKeyFrames>
-                                
+
 
                             </Storyboard>
                         </BeginStoryboard>
@@ -97,9 +97,9 @@
         <Image RenderTransformOrigin="0.5, 0.5" HorizontalAlignment="Left"  Name="image1" Stretch="Fill" Width="81" Source="admin.gif" Height="55" Canvas.Left="274" Canvas.Top="275">
 
         </Image>
-        <Button Canvas.Left="662" Canvas.Top="89" Height="42" Name="button4" Width="142" Click="button4_Click">Linear keyframes</Button>
-        <Button Canvas.Left="662" Canvas.Top="153" Height="44" Name="button5" Width="142" Click="button5_Click">Spline keyframes</Button>
-        <Button Canvas.Left="662" Canvas.Top="27" Height="38" Name="button6" Width="142" Click="button6_Click">Discrete keyframes</Button>
+        <Button Canvas.Left="662" Canvas.Top="145" Height="112" Name="button4" Width="142" Click="button4_Click" HorizontalAlignment="Center" VerticalAlignment="Top">Linear keyframes</Button>
+        <Button Canvas.Left="662" Canvas.Top="262" Height="97" Name="button5" Width="142" Click="button5_Click" HorizontalAlignment="Center" VerticalAlignment="Top">Spline keyframes</Button>
+        <Button Canvas.Left="662" Canvas.Top="27" Height="113" Name="button6" Width="142" Click="button6_Click" HorizontalAlignment="Center" VerticalAlignment="Top">Discrete keyframes</Button>
     </Canvas>
 
 </Window>
