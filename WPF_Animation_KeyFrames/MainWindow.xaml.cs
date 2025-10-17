@@ -24,6 +24,7 @@ namespace WPF_Animation_KeyFrames
     {
         public MainWindow()
         {
+            //инициализация контролов
             InitializeComponent();
         }
 
